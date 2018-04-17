@@ -1,10 +1,19 @@
 # react-redux-webpack-starter
 Simple starter pack to start new react apps out of the box, or easily configure to build upon
 
+Out-of-the-box utilities:
+___
+
+- Autoprefixer (postcss)
+- Hot Module Reloading
+- Jest + Enzyme
+- Sass
+- Source-mapping
+
 Installation and usage
 ---
 
-To install, run:
+To install:
 
 ```
 $ git clone https://github.com/edgarfinn/react-redux-webpack-starter.git
@@ -17,7 +26,7 @@ $ npm install
 
 Webpack is configured to perform certain tasks differently depending on whether in ```development``` environment or ```production``` environment.
 
-In order to run the development server run:
+To run the development server:
 
 ```
 $ npm run dev
@@ -30,3 +39,5 @@ $ npm run build
 ```
 
 Depending on where your application is deployed, you may need to add to, or make changes to the ```"postinstall"``` script in ```package.json```.
+
+This starter kit comes with ```express``` installed and configured with a basic express static file server to serve up the bundled output (see ```/index.js```).
