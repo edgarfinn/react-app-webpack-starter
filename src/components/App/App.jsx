@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     const { welcomeMessage } = this.state;
     return (
-      <div>
+      <div className="app">
         <h1>{ welcomeMessage }</h1>
       </div>
     );
